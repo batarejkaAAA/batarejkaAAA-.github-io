@@ -1,0 +1,114 @@
+body {
+	margin:0;
+	background:#000;
+}
+
+/* .ara{
+    z-index: 0;
+    background: url(https://media.tenor.com/z745KsQIH5gAAAAC/koryan.gif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 50%;
+    background-position: center;
+}
+.ara ,p{
+    top: 0;
+    position: absolute;
+    z-index: 1;
+}
+p{
+
+    word-spacing: 0px;
+    letter-spacing: -1px;
+    font-size: 15px;
+    text-align: justify;
+    font-weight: bold;
+    font-family: sans-serif;
+    min-height: 90vh;
+    margin: 0 auto;
+    background: transparent;
+    width: 100%;
+    color: red
+    background: black;
+} */
+/* .ara, p{
+    font-size: 15px;
+    text-align: justify;
+    font-weight: bold;
+    font-family: sans-serif;
+    min-height: 90vh;
+    margin: 0 auto;
+    color: transparent;
+    background-position: right;
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    word-spacing: 0px;
+    letter-spacing: -1px;
+}
+p{
+    z-index: 2;
+    width: 100%;
+} */
+
+/* p{ */
+    /* z-index: 1;
+}
+img, p {
+    background-position: right;
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    word-spacing: 0px;
+    letter-spacing: -1px;
+    margin: 0 auto;
+    font-size: 15px;
+    text-align: justify;
+    font-weight: bold;
+    font-family: sans-serif;
+    position: absolute;
+    top:0;
+    left: 0;
+} */
+/* p{
+    font-size: 15px;
+    text-align: justify;
+    font-weight: bold;
+    font-family: sans-serif;
+    min-height: 90vh;
+    margin: 0 auto;
+    color: transparent;
+    width: 100%;
+    background-size: 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    word-spacing: 0px;
+    letter-spacing: -1px;
+} */
+
+/* div, p {
+    position: absolute;
+    left: 0;
+    top: 0;
+} */
+
+p {
+	font-size: 15px;
+    text-align: justify;
+    font-weight: bold;
+    font-family: sans-serif;
+    min-height: 100vh;
+    margin: 0 auto;
+    color: transparent;
+    max-width:80%;
+    background: url(https://media.tenor.com/z745KsQIH5gAAAAC/koryan.gif);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    -webkit-background-clip: text;
+    background-clip: text;
+    word-spacing: 0px;
+    letter-spacing: -1px;
+}
