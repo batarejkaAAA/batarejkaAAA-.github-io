@@ -19,7 +19,7 @@ p {
     -webkit-background-clip: text;
     background-clip: text;
     word-spacing: 0px;
-    letter-spacing: -1px;
+    letter-spacing: normal;
 }
 @media (min-width: 1101px) and (max-width: 1200px){
     body{
