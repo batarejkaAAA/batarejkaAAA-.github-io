@@ -5,11 +5,11 @@ body {
 	background:#000;
     zoom: 30%
 }
-div{
+/* div{
    display: none;
-}
+} */
 
-div.pl{
+div{
     display: block;
     position: absolute;
     width: 1300px;
@@ -19,7 +19,7 @@ div.pl{
     left: 35%;
     top: 30%;
     padding: 10px;
-    /* animation: new 12s linear forwards; */
+    animation: new 12s linear forwards;
 }
 
 div > p{
