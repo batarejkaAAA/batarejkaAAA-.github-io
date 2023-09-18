@@ -5,11 +5,11 @@ body {
 	background:#000;
     zoom: 30%
 }
-/* div{
-   display: none;
-} */
-
 div{
+   display: none;
+} 
+
+div.pl{
     display: block;
     position: absolute;
     width: 1300px;
