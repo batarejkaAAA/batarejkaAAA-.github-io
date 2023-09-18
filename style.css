@@ -1,9 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 body {
 	margin:0;
 	background:#000;
     zoom: 30%
 }
-p {
+div{
+   display: none;
+}
+/* div.pl{
+    display: block;
+    position: absolute;
+    width: 1300px;
+    height: 600px;
+    background-color: #201f20;
+    border-radius: 30px;
+    left: 35%;
+    top: 30%;
+    padding: 10px;
+    animation: new 12s linear forwards;
+} */
+div{
+    display: block;
+    position: absolute;
+    width: 1300px;
+    height: 600px;
+    background-color: #201f20;
+    border-radius: 30px;
+    left: 35%;
+    top: 30%;
+    padding: 10px;
+    /* animation: new 12s linear forwards; */
+}
+div > p{
+    color: rgba(255, 255, 255, 0.808);
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Poppins', sans-serif;
+
+}
+@keyframes new{
+    0%{
+        opacity: 0;
+    }
+    15%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+.txt {
 	font-size: 15px;
     text-align: justify;
     font-weight: bold;
@@ -19,13 +69,13 @@ p {
     -webkit-background-clip: text;
     background-clip: text;
     word-spacing: 0px;
-    letter-spacing: normal;
+    /* letter-spacing: -1px; */
 }
 @media (min-width: 1101px) and (max-width: 1200px){
     body{
         zoom: 25%
     }
-    p{
+    .txt{
         max-width:  100%;
     }
 }
@@ -33,7 +83,7 @@ p {
     body{
         zoom: 23%
     }
-    p{
+    .txt{
         max-width:  100%;
     }
 }
@@ -41,7 +91,7 @@ p {
     body{
         zoom: 23%
     }
-    p{
+    .txt{
         max-width:  100%;
     }
 }
@@ -49,7 +99,7 @@ p {
     body{
         zoom: 18%
     }
-    p{
+    .txt{
         max-width:  100%;
     }
 }
@@ -57,7 +107,7 @@ p {
     body{
         zoom: 16%
     }
-    p{
+    .txt{
         max-width:  100%;
     }
 }
@@ -65,7 +115,7 @@ p {
     body{
         zoom: 11%
     }
-    p{
+    .txt{
         max-width:  100%;
     }
 }
@@ -73,17 +123,15 @@ p {
     body{
         zoom: 10.6%
     }
-    p{
-        max-width:  96%;
-        transform: translateY(200px);
+    .txt{
+        max-width:  100%;
     }
 }
 @media (min-width: 320px) and (max-width: 350px){
     body{
         zoom: 8%
     }
-    p{
-        max-width:  96%;
-        transform: translateY(1500px);
+    .txt{
+        max-width:  100%;
     }
 }
